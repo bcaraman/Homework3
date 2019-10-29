@@ -6,12 +6,23 @@
     <%= csp_meta_tag %>
 
     <div id="header">
+
       <h1>Appointment Manager</h1>
+
+      <style>
+        #header{
+          background-color: lightgrey;
+          border: 1px solid black;
+          padding: 10px;
+        }
+      </style>
+
       <div id="links">
         <a href="/physicians">Physicians</a>
         <a href="/appointments">Appointments</a>
         <a href="/patients">Patients</a>
       </div>
+
     </div>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
